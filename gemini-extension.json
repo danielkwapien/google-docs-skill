@@ -1,0 +1,5 @@
+{
+  "name": "google-docs-skill",
+  "version": "1.3.0",
+  "description": "Manage Google Docs and Google Drive with full document operations, Markdown support, large document insertion, and Drive file management."
+}

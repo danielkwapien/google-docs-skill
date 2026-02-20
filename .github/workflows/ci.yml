@@ -1,0 +1,14 @@
+# CI temporarily disabled — original workflow referenced robtaylor/skills@add-skill-ci
+# which depends on anthropics/skills#136 being merged upstream.
+# TODO: Re-enable when upstream skill-ci workflow is available, or implement custom CI.
+# See original: https://github.com/robtaylor/google-docs-skill/blob/main/.github/workflows/ci.yml
+name: Skill CI
+
+on:
+  workflow_dispatch:
+
+jobs:
+  placeholder:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "CI not yet configured for this fork. See TODO comment above."
